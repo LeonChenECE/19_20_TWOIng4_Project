@@ -6,7 +6,7 @@ import Main from './stories/Main';
 function App() {
   return (
     <div className="App">
-      
+      <Main/>
     </div>
   );
 }
