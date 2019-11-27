@@ -3,6 +3,13 @@
 	color : #E1EBF4;
 }
 
+#container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 #box{
 	background-color: #323c52;
 	border-radius:1ex ;
