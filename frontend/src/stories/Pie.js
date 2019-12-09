@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  PieChart, Pie, Tooltip, LabelList,
+  ResponsiveContainer, PieChart, Pie, Tooltip, LabelList,
 } from 'recharts';
 
 const data = [
@@ -21,9 +21,9 @@ const data = [
 export default class LineDemo extends React.Component {
   render(){
     return (
-      <PieChart width={730} height={250}>
+      <PieChart width={350} height={250}>
       <Tooltip />
-        <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#f8932b" label={{ fill: '#fff'}} paddingAngle>
+        <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#f8932b" label={{ fill: '#fff'}} paddingAngle >
         </Pie>
       </PieChart>
       );
