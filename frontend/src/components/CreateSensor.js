@@ -96,7 +96,7 @@ export default class CreateSensor extends Component {
 					</div>
 
 					<div className="form-group">
-						<label> Location (Country): </label>
+						<label> Location (Room): </label>
 						<input type="text"
 							required
 							className="form-control"
