@@ -20,3 +20,5 @@ npm start
 
 ## Vidéo Loom
 https://www.loom.com/share/8c132c577ce54741b726840dc727c3c0
+
+NB: Loom n'a pas capturer nos menus déroulants
