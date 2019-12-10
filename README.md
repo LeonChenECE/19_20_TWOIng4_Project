@@ -15,6 +15,6 @@ Pour démarer le site,
 1) Ouvrir un onglet de terminal au dossier /backend et exécuter :
 nodemon server
 
-2) Ouvrir un onglet de terminal au dossier /frontend et exécuter:
+2) Ouvrir un onglet de terminal au dossier /frontend et exécuter :
 npm start
 
