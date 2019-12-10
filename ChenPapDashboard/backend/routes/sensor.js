@@ -11,7 +11,7 @@ router.route('/').get((req,res) =>{
 
 router.route('/add').post((req, res) => {
 	const location = req.body.location;
-	const creationDate = Date.parse(req.body.creationDate);
+	const creationDate = req.body.creationDate;
 	const userID = req.body.userID;
 
 	const newSensor = new Sensor({
@@ -39,9 +39,9 @@ router.route('/:id').delete((req,res) => {
 
 router.route('/update/:id').post((req,res) => {
 	Sensor.findById(req.params.id)
-		.then(measures => {
+		.then(sensors => {
 			sensors.location = req.body.location;
-			sensors.creationDate = Date.parse(req.body.creationDate);
+			sensors.creationDate = req.body.creationDate;
 			sensors.userID = req.body.userID;
 
 			sensors.save()

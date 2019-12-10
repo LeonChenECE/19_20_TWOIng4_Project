@@ -11,7 +11,7 @@ const User = props => (
 
 		<td>
 			<Link to={"/EditUser/"+props.user._id}>Edit </Link>
-			 | 
+				|
 			<a href="#" onClick={() => { props.deleteUser(props.user._id) }}> Delete</a>
 		</td>
 	</tr>
@@ -43,7 +43,7 @@ export default class UserList extends Component {
 		.then(res => console.log(res.data));
 
 		this.setState({
-			users: this.state.uers.filter(el => el._id !== id)
+			users: this.state.users.filter(el => el._id !== id)
 		})
 	}
 
@@ -57,9 +57,9 @@ export default class UserList extends Component {
 		return(
 			<div>
 				<h3>List of all the Users</h3>
-				<Link to={"/CreateUser"}><button>Create a New User</button></Link>
+				<Link to={"/CreateUser"} className="btn btn-primary">Create a New User</Link>
 				<table className="table">
-					<thead className="thead-light">
+					<thead className="thead-dark">
 						<tr>
 							<td>ID</td>
 

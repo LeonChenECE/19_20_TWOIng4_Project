@@ -1,23 +1,18 @@
-# Projet de fin de semestre
-
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
-
-<p align="center">
- <a href="https://github.com/clementAC/Instructions-Technologies-Web-OCRES-Ing4/blob/master/README.md">Règles pour le semestre</a>
-</p>
+# Dashboard de Léon CHEN et Jean PAPON
 
 ## Introduction
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+Projet MERN (utilisant MongoDB, Express, React et Node.js)
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
-
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
+Utilisation de Recharts, Bootstrap, react-datepicker, react-router-dom, axios, mongoose.
 
 ## Instructions
 
-Les instructions sont à retrouver dans le pdf mis à disposition sur campus.
+Pour démarer le site, 
 
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
+1) Ouvrir un onglet de terminal au dossier /backend et exécuter :
+nodemon server
 
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
+2) Ouvrir un onglet de terminal au dossier du projet et exécuter:
+npm start
+

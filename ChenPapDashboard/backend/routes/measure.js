@@ -11,7 +11,7 @@ router.route('/').get((req,res) =>{
 
 router.route('/add').post((req, res) => {
 	const type = req.body.type;
-	const creationDate = Date.parse(req.body.creationDate);
+	const creationDate = req.body.creationDate;
 	const sensorID = req.body.sensorID;
 	const value = Number(req.body.value);
 
@@ -43,7 +43,7 @@ router.route('/update/:id').post((req,res) => {
 	Measure.findById(req.params.id)
 		.then(measures => {
 			measures.type = req.body.type;
-			measures.creationDate = Date.parse(req.body.creationDate);
+			measures.creationDate = req.body.creationDate;
 			measures.sensorID = req.body.sensorID;
 			measures.value = Number(req.body.value);
 
