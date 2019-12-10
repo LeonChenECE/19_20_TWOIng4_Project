@@ -1,0 +1,35 @@
+#mAin{
+	background-color: #242d43;
+	color : #E1EBF4;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 75%;
+	padding-top: 1em;
+	padding-bottom: 5em;
+}
+
+.Hero{
+	width: 100%;
+}
+
+#box{
+	background-color: #323c52;
+	margin: 0.2em;
+}
+
+#box-head{
+	background-color: #2e364a;
+}
+
+#textbox{
+	padding: 1em;
+	font-size: bignoodletoo;
+}

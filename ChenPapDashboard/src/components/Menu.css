@@ -1,0 +1,30 @@
+#OverBoard{
+	background-color: #f8932b;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#MenuButton{
+	background-color: #2e364a;
+		padding-left: 5em;
+	padding-right: 5em;
+}
+
+@media screen and (max-width: 1280px) {
+#MenuButton{
+		padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+}
+
+@media screen and (max-width: 640px) {
+  #OverBoard{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+#MenuButton{
+		padding-left: 1em;
+	padding-right: 1em;
+}
+}
